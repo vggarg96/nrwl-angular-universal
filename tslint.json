@@ -78,7 +78,11 @@
         "allow": [],
         "depConstraints": [
           {
-            "sourceTag": "*",
+            "sourceTag": "mylib",
+            "onlyDependOnLibsWithTags": []
+          },
+          {
+            "sourceTag": "myworkspace",
             "onlyDependOnLibsWithTags": [
               "*"
             ]

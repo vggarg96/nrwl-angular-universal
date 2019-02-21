@@ -4,8 +4,10 @@
     "outDir": "../../dist/out-tsc/apps/myworkspace",
     "types": []
   },
-  "exclude": [
-    "test.ts",
-    "**/*.spec.ts"
-  ]
+  "include": [
+		"**/*.ts",
+		"../../libs/mylib/src/index.ts",
+	],
+
+  "exclude": ["test.ts", "**/*.spec.ts"]
 }

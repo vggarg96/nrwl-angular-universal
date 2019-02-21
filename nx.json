@@ -9,10 +9,17 @@
   },
   "projects": {
     "myworkspace": {
-      "tags": []
+      "tags": [
+        "myworkspace"
+      ]
     },
     "myworkspace-e2e": {
       "tags": []
+    },
+    "mylib": {
+      "tags": [
+        "mylib"
+      ]
     }
   }
 }
