@@ -6,7 +6,7 @@
   },
   "include": [
 		"**/*.ts",
-		"../../libs/mylib/src/index.ts",
+		"../../libs/mylib/src/index.ts"
 	],
 
   "exclude": ["test.ts", "**/*.spec.ts"]
