@@ -4,7 +4,7 @@
   "newProjectRoot": "",
   "projects": {
     "myworkspace": {
-      "root": "apps\\myworkspace",
+      "root": "apps/myworkspace",
       "sourceRoot": "apps/myworkspace/src",
       "projectType": "application",
       "prefix": "app",
@@ -13,11 +13,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist\\apps\\myworkspace",
+            "outputPath": "dist/apps/myworkspace",
             "index": "apps/myworkspace/src/index.html",
             "main": "apps/myworkspace/src/main.ts",
             "polyfills": "apps/myworkspace/src/polyfills.ts",
-            "tsConfig": "apps\\myworkspace\\tsconfig.app.json",
+            "tsConfig": "apps/myworkspace/tsconfig.app.json",
             "assets": [
               "apps/myworkspace/src/favicon.ico",
               "apps/myworkspace/src/assets"
@@ -75,8 +75,8 @@
           "options": {
             "main": "apps/myworkspace/src/test.ts",
             "polyfills": "apps/myworkspace/src/polyfills.ts",
-            "tsConfig": "apps\\myworkspace\\tsconfig.spec.json",
-            "karmaConfig": "apps\\myworkspace\\karma.conf.js",
+            "tsConfig": "apps/myworkspace/tsconfig.spec.json",
+            "karmaConfig": "apps/myworkspace/karma.conf.js",
             "styles": ["apps/myworkspace/src/styles.css"],
             "scripts": [],
             "assets": [
@@ -89,8 +89,8 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "apps\\myworkspace\\tsconfig.app.json",
-              "apps\\myworkspace\\tsconfig.spec.json"
+              "apps/myworkspace/tsconfig.app.json",
+              "apps/myworkspace/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
@@ -98,9 +98,9 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist\\apps\\myworkspace-server",
+            "outputPath": "dist/apps/myworkspace-server",
             "main": "apps/myworkspace/src/main.server.ts",
-            "tsConfig": "apps\\myworkspace\\tsconfig.server.json"
+            "tsConfig": "apps/myworkspace/tsconfig.server.json"
           },
           "configurations": {
             "production": {
@@ -116,14 +116,14 @@
       }
     },
     "myworkspace-e2e": {
-      "root": "apps\\myworkspace-e2e",
+      "root": "apps/myworkspace-e2e",
       "projectType": "application",
       "prefix": "",
       "architect": {
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "apps\\myworkspace-e2e\\protractor.conf.js",
+            "protractorConfig": "apps/myworkspace-e2e/protractor.conf.js",
             "devServerTarget": "myworkspace:serve"
           },
           "configurations": {
@@ -135,7 +135,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": "apps\\myworkspace-e2e\\tsconfig.e2e.json",
+            "tsConfig": "apps/myworkspace-e2e/tsconfig.e2e.json",
             "exclude": ["**/node_modules/**"]
           }
         }
