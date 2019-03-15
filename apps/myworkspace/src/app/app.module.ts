@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
     // MylibModule
     RouterModule.forRoot(
       [
-        { path: '', loadChildren: '@myworkspace/mylib/src/lib/mylib.module#MylibModule' },
+        { path: '', loadChildren: '@myworkspace/mylib#MylibModule' },
       ],
       {
         initialNavigation: 'enabled'
